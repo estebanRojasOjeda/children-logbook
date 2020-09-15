@@ -1,5 +1,10 @@
-<h1>Emiliano</h1>
+<h2>Buscando: {{searching}}</h2>
 <hr>
+
+<div class="alert alert-primary" role="alert" *ngIf="catalog.length == 0">
+  No hay coincidencias!
+</div>
+
 <div class="card-columns">
 <div class="card" *ngFor="let item of catalog">
    <img src="{{item.img}}" class="card-img-top img-fluid" alt="...">

@@ -8,6 +8,8 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { CatalogComponent } from './components/catalog/catalog.component';
 import { CatalogService } from './services/catalog.service';
+import { DetailComponent } from './components/detail/detail.component';
+import { CatalogFoundComponent } from './components/catalog-found/catalog-found.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { CatalogService } from './services/catalog.service';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    CatalogComponent
+    CatalogComponent,
+    DetailComponent,
+    CatalogFoundComponent
   ],
   imports: [
     BrowserModule,
